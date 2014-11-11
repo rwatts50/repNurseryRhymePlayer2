@@ -1,0 +1,52 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NurseryRhymePlayer\MainActivity.cs">
+    <Files>
+      <File FileName="NurseryRhymePlayer\MainActivity.cs" Line="7" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="NurseryRhymePlayer" expanded="True">
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True">
+                <Node name="popup_menu.axml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\richard.watts\Documents\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="26" column="1" />
+      <Breakpoint file="C:\Users\richard.watts\Documents\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="44" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="33" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="251" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="254" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="189" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="73" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="164" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="62" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="52" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="67" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="168" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="310" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="101" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="110" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="216" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="225" column="1" />
+      <Breakpoint file="C:\Users\Richard\Documents\Software Development\Git Repositories\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="211" column="1" />
+      <Breakpoint file="C:\Users\c04372a\Documents\Android\projects\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="55" column="1" />
+      <Breakpoint file="C:\Users\c04372a\Documents\Android\projects\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="111" column="1" />
+      <Breakpoint file="c:\Android\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="165" column="1" />
+      <Breakpoint file="c:\Android\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="98" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="NurseryRhymePlayer\MainActivity.cs" line="86" offsetX="851" offsetY="1360" expression="songListAdapter" liveUpdate="False" />
+    <Watch file="c:\Android\repNurseryRhymePlayer\NurseryRhymePlayer\NurseryRhymePlayer\MainActivity.cs" line="159" offsetX="347" offsetY="2528" expression="player" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.NurseryRhymePlayer MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

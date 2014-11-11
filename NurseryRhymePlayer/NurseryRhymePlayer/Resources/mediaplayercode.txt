@@ -1,0 +1,38 @@
+				//Uri uri = new Uri ("android.resource://androidTest.androidTest/raw/heydiddlediddle.mp3");
+				//player.SetAudioStreamType(Stream.Music);
+				//player.SetDataSource(uri);
+				//player.Prepare();
+				//player.Start();
+				//const string lfn = "hey_diddle_diddle.mp3";
+				//string settings = string.Empty;
+
+				// context could be ApplicationContext, Activity or
+				// any other object of type Context
+				//using (var input = context.Assets.Open(lfn))
+				//using (StreamReader sr = new System.IO.StreamReader(input))
+				//{
+				//	settings = sr.ReadToEnd();
+				//}
+
+				// This method works better than setting the file path in SetDataSource. Don't know why.
+				//AssetFileDescriptor afd = getAssets().openFd("hey_diddle_diddle.mp3");
+				//string url = "...";
+				//player.SetAudioStreamType(Stream.Music);
+				//player.SetDataSource(url);
+				//player.Prepare();
+				//player.Start();
+
+
+				//player.setDataSource(afd.getFileDescriptor());
+				//player.prepare();
+				//player.start();
+
+				//Java.IO.File file = new Java.IO.File (filePath);
+				//Java.IO.FileInputStream fis = new Java.IO.FileInputStream (file);
+				//player.SetDataSource (fis.FD);
+
+				//Asset.Open(hey_diddle_diddle__beanstalk_audio__preview.mp3);
+
+				//player.SetDataSource(filePath);
+				//player.Prepare ();
+				//player.Start ();

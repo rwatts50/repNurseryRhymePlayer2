@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Main"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@+id/RelInner"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:gravity="bottom">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/imgHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/moonbabyboycolouredTransparentWithBackground_Unlayered_Rectangle_720"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:id="@+id/imgToplistbar"
+                android:layout_width="fill_parent"
+                android:layout_height="50px"
+                android:src="@drawable/toplistbar"
+                android:scaleType="fitXY" />
+            <ListView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:textColor="#FEFE78"
+                android:background="#CBCBF6"
+                android:cacheColorHint="#CBCBF6"
+                android:fadingEdge="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:id="@+id/Songs" />
+            <ImageView
+                android:id="@+id/bottomListbar"
+                android:layout_width="fill_parent"
+                android:layout_height="100px"
+                android:src="@drawable/bottomlistbar"
+                android:background="#FFffffff"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/Pause"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dip"
+            android:layout_marginLeft="0dip"
+            android:padding="0dip"
+            android:src="@drawable/play"
+            android:layout_alignParentLeft="true" />
+        <Button
+            android:id="@+id/Repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="true"
+            android:text="@string/Repeat"
+            android:layout_toRightOf="@id/Pause" />
+        <Button
+            android:id="@+id/Timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="true"
+            android:text="@string/Timer"
+            android:layout_toRightOf="@id/Repeat" />
+        <Button
+            android:id="@+id/Swoping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="true"
+            android:text="@string/Swop"
+            android:layout_toRightOf="@id/Timer" />
+    </RelativeLayout>
+</LinearLayout>
