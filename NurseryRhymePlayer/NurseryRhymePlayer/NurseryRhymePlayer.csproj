@@ -92,9 +92,14 @@
     <AndroidResource Include="Resources\raw\xPrettyLittleHorses.mp3" />
     <AndroidResource Include="Resources\raw\xRockAByeBaby.mp3" />
     <AndroidResource Include="Resources\raw\yFrereJacques.mp3" />
-    <AndroidResource Include="Resources\raw\yTwinkleTwinkleLittleStar.mp3" />
-    <AndroidResource Include="Resources\drawable-xhdpi\play.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\pause.png" />
+    <AndroidResource Include="Resources\raw\xTwinkleTwinkleLittleStar.mp3" />
+    <AndroidResource Include="Resources\drawable-xhdpi\music.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\noise.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pauseyel.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\playyel.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\repeaton.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\store.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\repeatoff.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

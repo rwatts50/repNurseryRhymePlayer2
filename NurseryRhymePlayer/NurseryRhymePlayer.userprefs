@@ -1,18 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.FA46JWM04007" />
   <MonoDevelop.Ide.Workbench ActiveDocument="NurseryRhymePlayer\MainActivity.cs">
     <Files>
-      <File FileName="NurseryRhymePlayer\MainActivity.cs" Line="7" Column="7" />
+      <File FileName="NurseryRhymePlayer\MainActivity.cs" Line="6" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="NurseryRhymePlayer" expanded="True">
             <Node name="Resources" expanded="True">
-              <Node name="layout" expanded="True">
-                <Node name="popup_menu.axml" selected="True" />
-              </Node>
+              <Node name="drawable-xhdpi" expanded="True" />
             </Node>
+            <Node name="MainActivity.cs" selected="True" />
           </Node>
         </State>
       </Pad>
