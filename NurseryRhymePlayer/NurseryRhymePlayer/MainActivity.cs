@@ -128,11 +128,13 @@ namespace NurseryRhymePlayer
 				{
 					if(repeat==false)
 					{
+						SetRepeatImage("repeaton");
 						repeat = true;
 					}
 					else
 					{
-						repeat = true;
+						SetRepeatImage("repeatoff");
+						repeat = false;
 					}
 				};
 
@@ -261,11 +263,25 @@ namespace NurseryRhymePlayer
 
 			if (playPause == "pause") 
 			{
-				playPauseBut.SetImageResource(Resource.Drawable.pause);
+				playPauseBut.SetImageResource(Resource.Drawable.pauseyel);
 			} 
 			else 
 			{
-				playPauseBut.SetImageResource(Resource.Drawable.play);
+				playPauseBut.SetImageResource(Resource.Drawable.playyel);
+			}
+		}
+
+		private void SetRepeatImage(string repeat)
+		{
+			ImageButton repeatBut = FindViewById<ImageButton> (Resource.Id.Pause);
+
+			if (repeat == "repeaton") 
+			{
+				repeatBut.SetImageResource(Resource.Drawable.repeaton);
+			} 
+			else 
+			{
+				repeatBut.SetImageResource(Resource.Drawable.repeatoff);
 			}
 		}
 
@@ -401,7 +417,7 @@ namespace NurseryRhymePlayer
 			ad.LoadAd(requestbuilder.Build());
 			//var layout = FindViewById<RelativeLayout>(Resource.Id.Main);
 			var layout = FindViewById<LinearLayout>(Resource.Id.Main);
-			layout.AddView(ad, 0);		
+			layout.AddView(ad);		
 		}
 
 

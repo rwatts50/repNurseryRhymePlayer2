@@ -44,43 +44,54 @@
                 android:src="@drawable/bottomlistbar"
                 android:background="#FFffffff"
                 android:scaleType="fitXY" />
+            <LinearLayout
+                android:id="@+id/LinPlayer"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="150px"
+                android:background="#FFffffff">
+                <ImageButton
+                    android:id="@+id/Pause"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="0dip"
+                    android:layout_marginLeft="0dip"
+                    android:padding="0dip"
+                    android:src="@drawable/playyel"
+                    android:layout_alignParentLeft="true" />
+                <ImageButton
+                    android:id="@+id/Repeat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/repeatoff" />
+                <ImageButton
+                    android:id="@+id/Timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/playyel" />
+                <ImageButton
+                    android:id="@+id/Swoping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/noise" />
+                <ImageButton
+                    android:id="@+id/Store"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/store" />
+            </LinearLayout>
         </LinearLayout>
-        <ImageButton
-            android:id="@+id/Pause"
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="0dip"
-            android:layout_marginLeft="0dip"
-            android:padding="0dip"
-            android:src="@drawable/play"
-            android:layout_alignParentLeft="true" />
-        <Button
-            android:id="@+id/Repeat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
-            android:text="@string/Repeat"
-            android:layout_toRightOf="@id/Pause" />
-        <Button
-            android:id="@+id/Timer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
-            android:text="@string/Timer"
-            android:layout_toRightOf="@id/Repeat" />
-        <Button
-            android:id="@+id/Swoping"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
-            android:text="@string/Swop"
-            android:layout_toRightOf="@id/Timer" />
     </RelativeLayout>
 </LinearLayout>

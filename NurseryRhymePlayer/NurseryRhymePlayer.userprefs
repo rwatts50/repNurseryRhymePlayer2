@@ -1,16 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.FA46JWM04007" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NurseryRhymePlayer\MainActivity.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="NurseryRhymePlayer\MainActivity.cs" Line="6" Column="6" />
+      <File FileName="NurseryRhymePlayer\MainActivity.cs" Line="13" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="NurseryRhymePlayer" expanded="True">
-            <Node name="Resources" expanded="True">
-              <Node name="drawable-xhdpi" expanded="True" />
-            </Node>
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="Resources" expanded="True" />
             <Node name="MainActivity.cs" selected="True" />
           </Node>
         </State>
